@@ -308,203 +308,208 @@ button {
 
 /*Mobile view*/
 @media only screen and (max-width:512px) {
-     body{
-        width: 320px;
-        margin: 0px;
-        padding: 0px;
-     }
-     header{
-        width: 50px;  
-     }
-     main,body{
-        width: 520px;
-     }
-    
-     .logo{
-        margin-left: 30px;
-        width: 120px;
-     }
-     .menubar{
-        margin: 25px 0 0 100px;
-     }
-     .menubar ul{
-        width: 10px;
-        font-size: 9px;
-        gap: 10px;
-        margin: 10px 0px 0px 230px;
-     }
-     .section1{
-        display: inline;
-     }
-    
-     .content{
-        width: 512px;
-        height: 400px;
-        background-size: cover;
-        background-position: center;
-        margin: 0px;
-    
-     }
-    .hexashop{
-
-        margin-top: 1px;
-        font-size: 30px;
-       margin-right: 20px;
+    body{
+       width: 330px;
+       margin: 0px;
+       padding: 0px;
     }
-    .hint {
-        margin-left: 50px;
-        margin-top: 130px;
+    header{
+       width: 50px; 
+       display: inline; 
     }
-    .button1{
-        margin-left: 50px;
+    main,body{
+       width: 330px;
     }
-    .allcategories {
-        margin: 20px 0px 0px 20px;
-        height: 200px;
-        width: 0px;
+   
+    .logo{
+       margin-left: 30px;
+       width: 120px;
+       display: inline;
     }
-    .allcategories div{
-        width: 220px;
-        height: 200px;
+    .menubar{
+       margin: 25px 0 0 100px;
     }
-    .allcategories p{
-       margin-bottom: 15px;
+    .menubar ul{
+       width: 10px;
+       font-size: 9px;
+       gap: 10px;
+       margin: 10px 0px 0px 190px;
     }
-    #item1{
-        background-size: cover; 
+    .section1{
       
+       display: inline;
     }
-    #item2{
-        background-size: cover;
+   
+    .content{
+       width: 330px;
+       height: 400px;
+       background-size: cover;
+       background-position: center;
+       margin: 20px 0px;
+   
     }
-    #item3{
-        background-size: cover;
-    }
-    #item4{
-        background-size: cover;
-    }
-    hr{
-        margin-top: 300px;
-        width: 500px;  
-    }
-    .hr5{
-        margin-top: 50px;
-        width: 500px;
-    }
-    .section2 {
-        width: 500px;
-    }
-    .men {
-        margin: 50px;
-    }
-    .mensitem {
-        display: inline;
-        text-align: center;
-    }
-    .mensitem img{
-       width: 250px;
-    }
-    .mensitem div{
-        margin-top: 20px;
-    }
-    .women {
-        margin: 50px;
+   .hexashop{
 
-    }
-
-    .womensitem {
-        display: inline;
-        text-align: center;
-    }
-    .womensitem img{
-       width: 250px;
-    }
-    .womensitem div{
-        margin-top: 20px;
-    }
-    .kids {
-        margin: 50px;
-
-    }
-    .kidsitem {
-        display: inline;
-        text-align: center;
-    }
-    .kidsitem img{
-       width: 250px;
-    }
-    .kidsitem div{
-        margin-top: 20px;
-    }
-    .section3{
-        display: inline;
-    }
-    .section3 .part1{
-        margin: 50px;
-    }
-    .part2{
-        margin: 50px;
-    }
-    .part2 div{
-        width: 150px; 
-        height: 150px;
-    }
-    .socialmedia{
-        margin: 50px;
-        width: 400px;
-    }
-    .posts{
-        margin: 0px 0px 0 170px;
-        display: grid;
-        grid-template-columns: auto;
-        height: 700px;
-        width: 130px;
-    }
-    .posts div {
-        background-position: center;
-        background-size: cover;
-    }
-    .subsection{
-        display: inline;
-        
-    }
-    .subsection .info ,.contact{
-        margin: 50px;
-        width:  400px;
-    }
-    .section5{
-       display: inline-block;
-       width: 520px;
-       height: 1000px;
-       
-    }
-    .Address {
-        text-align: center;
-        margin: 0px 0px 0px 60px;
-
-    }
-    .AandS{
-        display: inline-block;
-        
-    }
-    .ShoppingandCategories{
-      width: 520px;
-      text-align: center;
-    }
-    .UandH{
-        display: inline-block;  
-    }
-    .UsefulLinks{
-        width: 520px;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    .HelpandInformation{
-        width: 520px;
-        text-align: center;
-    }
-   footer{
-    width: 520px;
-    height: 100px;
+       margin-top: 1px;
+       font-size: 30px;
+      margin-right: 20px;
    }
+   .hint {
+       margin-left: 50px;
+       margin-top: 130px;
+   }
+   .button1{
+       margin-left: 50px;
+   }
+   .allcategories {
+       margin: 20px 0px 0px 20px;
+       height: 200px;
+       width: 0px;
+   }
+   .allcategories div{
+       width: 130px;
+       height: 130px;
+   }
+   .allcategories h2{
+       font-size: 20px;
+       margin-top: 50px;
+
+   }
+   #item1{
+       background-size: cover; 
+       margin-bottom: auto; margin-top: auto;
+     
+   }
+   #item2{
+       background-size: cover;
+   }
+   #item3{
+       background-size: cover;
+   }
+   #item4{
+       background-size: cover;
+   }
+   hr{
+       margin-top: 200px;
+       width: 330px;  
+   }
+   .hr5{
+       margin-top: 50px;
+       width: 500px;
+   }
+   .section2 {
+       width: 330px;
+   }
+   .men {
+       margin: 50px;
+   }
+   .mensitem {
+       display: inline;
+       text-align: center;
+   }
+   .mensitem img{
+      width: 250px;
+   }
+   .mensitem div{
+       margin-top: 20px;
+   }
+   .women {
+       margin: 50px;
+
+   }
+
+   .womensitem {
+       display: inline;
+       text-align: center;
+   }
+   .womensitem img{
+      width: 250px;
+   }
+   .womensitem div{
+       margin-top: 20px;
+   }
+   .kids {
+       margin: 50px;
+
+   }
+   .kidsitem {
+       display: inline;
+       text-align: center;
+   }
+   .kidsitem img{
+      width: 250px;
+   }
+   .kidsitem div{
+       margin-top: 20px;
+   }
+   .section3{
+       display: inline;  
+   }
+   .section3 .part1,.part2{
+       margin: 50px 15px;
+       width: 300px;
+   }
+   .part2 div{
+       width: 130px;
+       height: 130px;
+   }
+   .socialmedia{
+       margin: 50px ;
+   }
+   .posts{
+       margin: 0px 0px 0 100px;
+       display: grid;
+       grid-template-columns: auto;
+       height: 700px;
+       width: 130px;
+   }
+   .posts div {
+       background-position: center;
+       background-size: cover;
+   }
+   .subsection{
+       display: inline;
+       
+   }
+   .subsection .info ,.contact{
+       margin: 50px;
+      
+   }
+   .section5{
+      display: inline-block;
+  
+      height: 1000px;
+      
+   }
+   .Address {
+       margin: 0px 0px 0px 0px;
+       text-align: center;
+       width: 330px;
+
+   }
+   .AandS{
+       display: inline-block;
+       
+   }
+   .ShoppingandCategories{
+     width: 330px;
+     text-align: center;
+   }
+   .UandH{
+       display: inline-block;  
+   }
+   .UsefulLinks{
+       width: 330px;
+       text-align: center;
+       margin-bottom: 50px;
+   }
+   .HelpandInformation{
+       width: 330px;
+       text-align: center;
+   }
+  footer{
+   width: 330px;
+   height: 100px;
+   font-size: 15px;
+  }
 }
