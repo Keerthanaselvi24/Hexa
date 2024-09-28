@@ -326,16 +326,13 @@ button {
        width: 120px;
        display: inline;
     }
-    .menubar{
-        margin: 0px 0 0 120px;
-        float: left;
-    }
-    .menubar ul{
-        width: 0px;
+    .menubar {
         font-size: 9px;
-        gap: 10px;
-        margin: 10px 0px 0px 160px;
+        margin-right: 50px;
+        margin-left: -900px;
     }
+    ul {
+        gap: 10px;
     }
     .section1{
       
@@ -343,11 +340,11 @@ button {
     }
    
     .content{
-       width: 360px;
+       width: 350px;
        height: 400px;
        background-size: cover;
        background-position: center;
-       margin: 40px 0px;
+       margin: 25px 0px;
    
     }
    .hexashop{
@@ -364,7 +361,7 @@ button {
        margin-left: 50px;
    }
    .allcategories {
-       margin: 20px 0px 0px 20px;
+       margin: 20px 0px 0px 25px;
        height: 200px;
        width: 0px;
    }
@@ -393,7 +390,7 @@ button {
    }
    hr{
        margin-top: 200px;
-       width: 360px;  
+       width: 330px;  
    }
    .hr5{
        margin-top: 50px;
@@ -448,8 +445,8 @@ button {
        display: inline;  
    }
    .section3 .part1,.part2{
-       margin: 50px 20px;
-       width: 320px;
+       margin: 50px 15px;
+       width: 300px;
    }
    .part2 div{
        width: 130px;
@@ -474,16 +471,16 @@ button {
        
    }
    .subsection .info ,.contact{
-       margin: 50px;  
+       margin: 50px;
+      
    }
    .contact div{
-    margin-left: 10px;
-    font-size: 15px;
+    margin-left: 15px;
    }
-   .section5{
-      display: inline-block;
-  
-      height: 1000px;
+.section5{
+    display: inline-block;
+    width: 350px;
+    height: 1000px;
       
    }
    .Address {
@@ -512,9 +509,10 @@ button {
        width: 330px;
        text-align: center;
    }
-  footer{
-   width: 360px;
-   height: 100px;
-   font-size: 15px;
-  }
+   footer {
+    width: 350px;
+    height: 100px;
+    font-size: 12px;
+    text-align: center;
+}
 }
