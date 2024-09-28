@@ -340,7 +340,7 @@ button {
     }
    
     .content{
-       width: 350px;
+       width: 370px;
        height: 400px;
        background-size: cover;
        background-position: center;
@@ -361,7 +361,7 @@ button {
        margin-left: 50px;
    }
    .allcategories {
-       margin: 20px 0px 0px 25px;
+       margin: 20px 0px 0px 30px;
        height: 200px;
        width: 0px;
    }
@@ -397,7 +397,7 @@ button {
        width: 500px;
    }
    .section2 {
-       width: 330px;
+       width: 350px;
    }
    .men {
        margin: 50px;
